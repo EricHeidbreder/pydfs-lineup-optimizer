@@ -22,11 +22,11 @@ class FanDuelSingleGameFootballSettings(FanDuelSingleGameSettings):
     sport = Sport.FOOTBALL
     extra_rules = [FanduelSingleGameMaxQBRule]
     positions = [
-        LineupPosition('MVP', ('MVP', )),
-        LineupPosition('UTIL', ('QB', 'WR', 'RB', 'TE', 'K')),
-        LineupPosition('UTIL', ('QB', 'WR', 'RB', 'TE', 'K')),
-        LineupPosition('UTIL', ('QB', 'WR', 'RB', 'TE', 'K')),
-        LineupPosition('UTIL', ('QB', 'WR', 'RB', 'TE', 'K')),
+        LineupPosition('MVP - 1.5', ('MVP', )),
+        LineupPosition('AnyFLEX', ('QB', 'WR', 'RB', 'TE', 'K')),
+        LineupPosition('AnyFLEX', ('QB', 'WR', 'RB', 'TE', 'K')),
+        LineupPosition('AnyFLEX', ('QB', 'WR', 'RB', 'TE', 'K')),
+        LineupPosition('AnyFLEX', ('QB', 'WR', 'RB', 'TE', 'K')),
     ]
 
 
